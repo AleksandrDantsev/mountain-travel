@@ -1,0 +1,18 @@
+*{padding: 0; margin: 0; border: 0;}
+html, body {width: 100%; box-sizing: border-box; font-size: 16px;}
+button {cursor: pointer;}
+a, a:visited {text-decoration: none; color: inherit;}
+ul, li {list-style: none;}
+h1, h2, h3, h4, h5, h6 {font-size: inherit; font-weight: inherit;}
+input {color: #917B7B;}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url("../../fonts/PlayfairDisplay-Regular.eot");
+  src: url("../../fonts/PlayfairDisplay-Regular.eot?#iefix") format('embedded-opentype'),
+       url("../../fonts/PlayfairDisplay-Regular.otf") format('otf'),
+       url("../../fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular") format('svg'),
+       url("../../fonts/PlayfairDisplay-Regular.woff") format('woff'),
+       url("../../fonts/PlayfairDisplay-Regular.ttf") format('truetype'),
+       url("../../fonts/PlayfairDisplay-Regular.woff2") format('woff2');
+}

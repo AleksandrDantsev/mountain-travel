@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en" class="main-html">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Parallax</title>
+        <link rel="stylesheet" href="source/css/style-paral.css" />
+        <link rel="icon" href="img/fv.jpg" type="image/x-icon" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+            integrity="sha512-HaoDYc3PGduguBWOSToNc0AWGHBi2Y432Ssp3wNIdlOzrunCtB2qq6FrhtPbo+PlbvRbyi86dr5VQx61eg/daQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+    </head>
+    <body>
+        <div class="wraper">
+            <div class="name-site">
+                <div class="name-site__title">
+                    <a href="parrallax-main.html"
+                        >CORDILLERA<span class="domen">.ru</span></a
+                    >
+                </div>
+            </div>
+            <header>
+                <div class="header__layer">
+                    <div
+                        class="layer layer-base"
+                        style="background-image: url(img/gory.webp)"
+                    ></div>
+                    <div
+                        class="layer layer-back"
+                        style="background-image: url(img/gory-back.png)"
+                    ></div>
+                    <div
+                        class="layer layer-middle"
+                        style="background-image: url(img/gory-middle.png)"
+                    ></div>
+                    <div
+                        class="layer layer-front"
+                        style="background-image: url(img/gory-front.png)"
+                    ></div>
+                </div>
+                <div class="main-cloud">
+                    <div class="cloud cloud--left">
+                        <img src="img/forest/сloud.png" alt="" />
+                    </div>
+                    <div class="cloud cloud--middle two-cloud">
+                        <img src="img/forest/сloud.png" alt="" />
+                    </div>
+                    <div class="cloud cloud--middle">
+                        <img src="img/forest/сloud.png" alt="" />
+                    </div>
+                    <div class="cloud cloud--right">
+                        <img src="img/forest/сloud.png" alt="" />
+                    </div>
+                    <div class="cloud cloud--middle three-cloud">
+                        <img src="img/forest/сloud.png" alt="" />
+                    </div>
+                </div>
+            </header>
+            <main>
+                <div class="main-forest">
+                    <div class="gradient"></div>
+                    <img src="img/forest/forest-base3.webp" />
+                </div>
+                <div class="main__choise">
+                    <div class="main__quote">
+                        <span
+                            >Горы — ступени в небо. Поднимаясь по ним, я иду к
+                            новой жизни.</span
+                        >
+                    </div>
+                    <div class="main__bottom-choise">
+                        <div class="main__bottom-choise-title">
+                            Выберите путешествие, в которое хотите отправиться
+                        </div>
+                        <div class="main__buttons-choise">
+                            <div class="choise-line">
+                                <div class="main__button-advent">
+                                    <span>Большая Южно-Уральская тропа</span>
+                                </div>
+                                <div class="main__button-advent">
+                                    <span>Горный лагерь в Безенги</span>
+                                </div>
+                            </div>
+                            <div class="choise-line">
+                                <div class="main__button-advent">
+                                    <span>Горный лагерь в Домбае</span>
+                                </div>
+                                <div class="main__button-advent">
+                                    <span>Национальный парк Таганай</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pop-up">
+                    <div class="pop-up__conteiner">
+                        <div class="pop-up__top">
+                            <div class="pop-up__title">
+                                <h2>
+                                    Зарегистриуйтесь, чтобы узнать больше или
+                                    забронировать
+                                </h2>
+                            </div>
+                            <div class="pop-up__cross">
+                                <svg
+                                    width="35px"
+                                    height="35px"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <rect
+                                        x="0"
+                                        fill="none"
+                                        width="24"
+                                        height="24"
+                                    />
+                                    <g>
+                                        <path
+                                            d="M17.705 7.705l-1.41-1.41L12 10.59 7.705 6.295l-1.41 1.41L10.59 12l-4.295 4.295 1.41 1.41L12 13.41l4.295 4.295 1.41-1.41L13.41 12l4.295-4.295z"
+                                        />
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="pop-up__bottom">
+                            <div class="pop-up__bottom-wraper">
+                                <div class="pop_up__line">
+                                    <form>
+                                        <label for="name-reg">Ф.И.О.</label>
+                                        <input
+                                            class="input-name"
+                                            type="text"
+                                            id="name-reg"
+                                        />
+
+                                        <label for="emal-reg">E-mail</label>
+                                        <input
+                                            class="input-e-mail"
+                                            type="email"
+                                            id="emal-reg"
+                                        />
+                                    </form>
+                                </div>
+                                <div class="pop_up__line pop-up__line--right">
+                                    <form>
+                                        <label for="tel-reg">Телефон</label>
+                                        <input
+                                            class="input-tel"
+                                            type="tel"
+                                            id="tel-reg"
+                                            value="+7"
+                                            maxlength="12"
+                                            placeholder="+7 (999) 999-99-99"
+                                        />
+                                        <label for="select-date"
+                                            >Выберите даты</label
+                                        >
+                                        <select
+                                            class="date-adv"
+                                            id="select-date"
+                                        >
+                                            <option disabled>Дата</option>
+                                            <option class="opt"></option>
+                                            <option class="opt"></option>
+                                        </select>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="pop-up__button">
+                                <a>Отправить</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__run-line">
+                    <div class="run-line__text">
+                        Более 12 лет организуем отдых по популярным местам мира
+                        и осуществляем мечты о путешествиях
+                    </div>
+                    <div class="run-line__text">
+                        Для корпоративных клиентов – специальные тарифы и
+                        условия обслуживания.
+                    </div>
+                    <div class="run-line__text">
+                        Для получения скидки, необходимо отправить на почту
+                        cordillera-tour.ru запрос на предоставление скидки
+                    </div>
+                    <div class="run-line__text">
+                        Поиск туров на сайте не накладывает на вас финансовых
+                        обязательств. Попробуйте! И если вам понравится тур -
+                        оформляйте бронирование онлайн!
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="js/scroll.js"></script>
+        <script src="js/run-line.js"></script>
+        <script src="js/close.js"></script>
+        <script src="js/date.js"></script>
+    </body>
+</html>
